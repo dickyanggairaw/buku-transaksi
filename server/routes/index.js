@@ -6,6 +6,6 @@ route.get('/', (req, res) => {
     res.send("Hello World masa sih")
 })
 
-route.use('/user', UserRoute)
+route.use('/users', UserRoute)
 
 module.exports = route
